@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Scrapbook | Mordyx & Tabbyta</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="heaven.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+    <div class="loader-book"></div>
+
+    <p>Loading memories...</p>
+
+</div>
+
+
+<!-- PIN SCREEN -->
+
+<section id="pinScreen">
+
+    <div class="pin-card">
+
+        <h1>Our Story</h1>
+
+        <h2>A Little Place Made For You</h2>
+
+        <p>
+            Enter the secret code
+            to open our scrapbook.
+        </p>
+
+        <input
+            type="password"
+            id="pinInput"
+            maxlength="3"
+            placeholder="•••">
+
+        <button id="unlockBtn">
+            Open Memory
+        </button>
+
+        <p id="pinError"></p>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN CONTENT -->
+
+<div id="website">
+
+
+    <!-- COVER -->
+
+    <section class="hero">
+
+        <div class="floating-stars"></div>
+
+        <div class="hero-content">
+
+            <span class="badge">
+                1st Mensiversary
+            </span>
+
+            <h1>
+                Mordyx
+                <span>♡</span>
+                Tabbyta
+            </h1>
+
+            <p>
+                Every memory with you
+                deserves its own page.
+            </p>
+
+            <button id="openBookBtn">
+                Open Our Story
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SCRAPBOOK -->
+
+    <main id="scrapbook">
+
+
+        <!-- CHAPTER 1 -->
+
+        <section class="chapter intro">
+
+            <div class="paper-card">
+
+                <h2>Our Story</h2>
+
+                <p>
+                    Happy 1st Mensiversary, Sayang.
+                </p>
+
+                <p>
+                    Happy one month to us, sayang.
+                    ngga kerasa ya, ternyata kita udah
+                    sampai di satu bulan pertama kita.
+                    mungkin satu bulan terdengar sebentar
+                    buat sebagian orang, tapi buat aku,
+                    satu bulan ini udah cukup buat bikin
+                    banyak banget kenangan kecil yang berarti.
+                </p>
+
+            </div>
+
+            <div class="cover-photo">
+
+                <img src="foto1.jpg" alt="Our Memory">
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 2 -->
+
+        <section class="chapter memories">
+
+            <h2 class="section-title">
+                Little Moments
+            </h2>
+
+            <div class="polaroid-grid">
+
+
+                <div class="polaroid rotate-left">
+
+                    <div class="tape blue"></div>
+
+                    <img src="foto2.jpg" alt="Memory 1">
+
+                    <span>
+                        our favorite memory
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid rotate-right">
+
+                    <div class="tape pink"></div>
+
+                    <img src="foto3.jpg" alt="Memory 2">
+
+                    <span>
+                        you make me smile
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid rotate-left">
+
+                    <div class="tape blue"></div>
+
+                    <img src="foto4.jpg" alt="Memory 3">
+
+                    <span>
+                        best day ever
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid rotate-right">
+
+                    <div class="tape pink"></div>
+
+                    <img src="foto5.jpg" alt="Memory 4">
+
+                    <span>
+                        my safe place
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 3 -->
+
+        <section class="chapter letter-section">
+
+            <h2 class="section-title">
+                A Letter For You
+            </h2>
+
+
+            <div class="envelope-container">
+
+
+                <div id="openLetter" class="envelope">
+
+                    <div class="envelope-front">
+                        Open Me
+                    </div>
+
+                </div>
+
+
+                <div id="letterPaper" class="letter-paper">
+
+                    <h3>
+                        Happy 1st Mensiversary, Sayang
+                    </h3>
+
+
+                    <p>
+                        Happy one month to us, sayang.
+                        ngga kerasa ya, ternyata kita udah
+                        sampai di satu bulan pertama kita.
+                        mungkin satu bulan terdengar sebentar
+                        buat sebagian orang, tapi buat aku,
+                        satu bulan ini udah cukup buat bikin
+                        banyak banget kenangan kecil yang berarti.
+                        dari obrolan random, ketawa bareng,
+                        saling cerita tentang hari masing-masing,
+                        sampai hal-hal kecil yang mungkin
+                        kelihatannya sederhana, tapi somehow
+                        selalu berhasil bikin aku senyum sendiri.
+                    </p>
+
+
+                    <p>
+                        aku mau bilang thank you karena selama
+                        satu bulan ini kamu udah hadir di hidup aku.
+                        Thank you for every little thing you do,
+                        for every attention you give, for every
+                        time you make me feel loved and appreciated.
+                        Aku mungkin nggak selalu bisa bilang atau
+                        nunjukin semuanya dengan sempurna, tapi
+                        aku harap kamu tahu kalau aku benar-benar
+                        menghargai keberadaan kamu.
+                    </p>
+
+
+                    <p>
+                        aku suka bagaimana kita bisa jadi diri
+                        sendiri satu sama lain. bisa cerita hal random,
+                        bisa bercanda nggak jelas, bisa saling ngambek,
+                        saling kangen, bahkan kalau ada salah paham
+                        pun kita masih mau belajar buat ngerti satu
+                        sama lain. Karena menurut aku, hubungan bukan
+                        tentang selalu baik-baik aja, tapi tentang dua
+                        orang yang tetap mau memilih satu sama lain
+                        meskipun ada hari-hari yang ngga mudah.
+                    </p>
+
+
+                    <p>
+                        dan kalau boleh jujur, aku senang banget
+                        bisa punya kamu. Kamu jadi salah satu bagian
+                        paling manis dari hari-hariku sekarang.
+                        ada rasa nyaman yang susah dijelasin setiap
+                        kali ngobrol sama kamu, dan ada perasaan
+                        "aku beruntung banget" yang sering muncul
+                        cuma karena sadar kalau sekarang aku punya
+                        seseorang yang bisa aku panggil sayang.
+                    </p>
+
+
+                    <p>
+                        Semoga satu bulan ini bukan cuma jadi awal
+                        dari sebuah cerita, tapi jadi halaman pertama
+                        dari banyak banget halaman lainnya.
+                    </p>
+
+
+                    <p>
+                        aku pengen kita punya lebih banyak cerita,
+                        lebih banyak ketawa, lebih banyak momen random
+                        yang suatu hari nanti bisa kita lihat lagi
+                        sambil bilang, "ternyata kita udah sejauh ini ya."
+                    </p>
+
+
+                    <p>
+                        Thank you for choosing me, for staying,
+                        and for being you. I'm really, really happy
+                        that our story started.
+                    </p>
+
+
+                    <p>
+                        Happy 1st mensiversary, sayang.
+                    </p>
+
+
+                    <p>
+                        Here's to our first month, and hopefully
+                        to many more months, memories, and chapters
+                        with you.
+                    </p>
+
+
+                    <p>
+                        I love you, more than these little words
+                        could ever explain. ♡
+                    </p>
+
+
+                    <span>
+                        — Mordyx
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 4 -->
+
+        <section class="chapter film-section">
+
+            <h2 class="section-title">
+                Our Film Roll
+            </h2>
+
+
+            <div class="film-roll">
+
+
+                <div class="film-frame">
+
+                    <img src="foto6.jpg" alt="Memory 6">
+
+                </div>
+
+
+                <div class="film-frame">
+
+                    <img src="foto7.jpg" alt="Memory 7">
+
+                </div>
+
+
+                <div class="film-frame">
+
+                    <img src="foto8.jpg" alt="Memory 8">
+
+                </div>
+
+
+            </div>
+
+
+            <p class="film-caption">
+                Swipe slowly and relive every moment.
+            </p>
+
+        </section>
+
+
+        <!-- CHAPTER 5 -->
+
+        <section class="chapter quiz-section">
+
+            <h2 class="section-title">
+                Memory Check
+            </h2>
+
+
+            <div class="quiz-box">
+
+
+                <div class="question">
+
+                    <p>
+                        ganteng?
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer1"
+                        placeholder="jawab yang bener">
+
+                </div>
+
+
+                <div class="question">
+
+                    <p>
+                        Tanggal jadian kita?
+                    </p>
+
+                    <input
+                        type="text"
+                        id="answer2"
+                        placeholder="sampe salah aku ngambek">
+
+                </div>
+
+
+                <button id="checkQuiz">
+                    Unlock Special Memory
+                </button>
+
+
+                <p id="quizResult"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 6 -->
+
+        <section id="specialMemory" class="chapter special-memory">
+
+            <h2 class="section-title">
+                Special Memory
+            </h2>
+
+
+            <div class="memory-reveal">
+
+
+                <div class="blur-photo">
+
+                    <img
+                        id="specialPhoto"
+                        src="foto9.jpg"
+                        alt="Special Memory">
+
+                </div>
+
+
+                <button id="revealBtn">
+                    Reveal Memory
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 7 -->
+
+        <section class="chapter counter-section">
+
+            <h2 class="section-title">
+                Since March 3, 2026
+            </h2>
+
+
+            <div class="counter-card">
+
+
+                <div class="counter-item">
+
+                    <h3 id="days">
+                        0
+                    </h3>
+
+                    <span>
+                        Days
+                    </span>
+
+                </div>
+
+
+                <div class="counter-item">
+
+                    <h3 id="hours">
+                        0
+                    </h3>
+
+                    <span>
+                        Hours
+                    </span>
+
+                </div>
+
+
+                <div class="counter-item">
+
+                    <h3 id="minutes">
+                        0
+                    </h3>
+
+                    <span>
+                        Minutes
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 8 -->
+
+        <section class="chapter ending-photo">
+
+            <div class="final-card">
+
+                <img
+                    src="foto10.jpg"
+                    alt="Our Favorite Memory">
+
+
+                <h2>
+                    You Are My Favorite Chapter
+                </h2>
+
+
+                <p>
+                    Every page becomes beautiful
+                    because you are in it.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAPTER 9 -->
+
+        <section class="chapter secret-section">
+
+            <h2 class="section-title">
+                Hidden Message
+            </h2>
+
+
+            <p class="hint-text">
+                Ada pesan rahasia yang sedang menunggu.
+                Coba sentuh semua bintang untuk menemukannya.
+            </p>
+
+
+            <p id="starProgress">
+                Find all the stars (0/5)
+            </p>
+
+
+            <div class="stars-box">
+
+                <div class="star secret-star">★</div>
+
+                <div class="star secret-star">★</div>
+
+                <div class="star secret-star">★</div>
+
+                <div class="star secret-star">★</div>
+
+                <div class="star secret-star">★</div>
+
+            </div>
+
+
+            <div id="secretMessage">
+
+                <p>
+                    Aku akan tetap memilihmu,
+                    bahkan ketika dunia sedang
+                    tidak baik-baik saja.
+                </p>
+
+                <h3>
+                    Forever
+                </h3>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENDING -->
+
+        <section class="chapter ending">
+
+            <div class="ending-card">
+
+
+                <h2>
+                    Happy 1st Mensiversary
+                </h2>
+
+
+                <p>
+                    Thank you for being part
+                    of my happiest memories.
+                </p>
+
+
+                <p>
+                    From Mordyx to Tabbyta.
+                </p>
+
+
+                <button id="replayBtn">
+                    Replay Memories
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
