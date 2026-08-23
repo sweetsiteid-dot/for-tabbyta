@@ -157,7 +157,7 @@ function checkAnswers(){
     */
 
     const correctAnswer1 =
-        a1 === "ganteng";
+        a1 === "mordyx";
 
 
     /*
